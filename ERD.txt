@@ -1,0 +1,59 @@
+Table Governors {
+  id int
+  name varchar
+  status boolean
+  colonyId int
+}
+
+Table Colonies {
+  id int
+  size int
+  name varchar
+}
+
+Table MiningFacilities {
+   id int
+   status boolean
+   name varchar
+  
+}
+
+Table FaciltyMinerals {
+  int id
+  miningFacilityId int
+  mineralId int
+  tons int
+}
+
+Table Minerals {
+  id int
+  name varchar
+}
+
+Table Orders {
+  id int
+  tons int
+  facilityMineralId int
+  governorId int
+}
+
+Table ColonyMinerals {
+  id int
+  colonyId int
+  mineralId int
+  tons id
+}
+
+Ref: "MiningFacilities"."id" < "FaciltyMinerals"."miningFacilityId"
+
+Ref: "Minerals"."id" < "FaciltyMinerals"."mineralId"
+
+Ref: "Colonies"."id" < "Governors"."colonyId"
+
+Ref: "Colonies"."id" < "ColonyMinerals"."colonyId"
+
+Ref: "Minerals"."id" < "ColonyMinerals"."mineralId"
+
+Ref: "FaciltyMinerals"."int" < "Orders"."facilityMineralId"
+
+Ref: "Governors"."id" < "Orders"."governorId"

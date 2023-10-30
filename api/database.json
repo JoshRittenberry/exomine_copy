@@ -1,0 +1,596 @@
+{
+  "governors": [
+    {
+      "id": 1,
+      "colonyId": 1,
+      "name": "Luna Luminaire",
+      "active": true
+    },
+    {
+      "id": 2,
+      "colonyId": 2,
+      "name": "Solar Samba",
+      "active": false
+    },
+    {
+      "id": 3,
+      "colonyId": 3,
+      "name": "Orion Oracle",
+      "active": true
+    },
+    {
+      "id": 4,
+      "colonyId": 4,
+      "name": "Stellar Serenade",
+      "active": false
+    },
+    {
+      "id": 5,
+      "colonyId": 5,
+      "name": "Galactic Giggler",
+      "active": true
+    },
+    {
+      "id": 6,
+      "colonyId": 6,
+      "name": "Celestial Skipper",
+      "active": false
+    },
+    {
+      "id": 7,
+      "colonyId": 7,
+      "name": "Moonwalker Maverick",
+      "active": true
+    },
+    {
+      "id": 8,
+      "colonyId": 8,
+      "name": "Stardust Storyteller",
+      "active": false
+    },
+    {
+      "id": 9,
+      "colonyId": 1,
+      "name": "Captain Nebula",
+      "active": true
+    },
+    {
+      "id": 10,
+      "colonyId": 2,
+      "name": "Astro Amigo",
+      "active": false
+    },
+    {
+      "id": 11,
+      "colonyId": 3,
+      "name": "Galaxy Gazer",
+      "active": true
+    },
+    {
+      "id": 12,
+      "colonyId": 4,
+      "name": "Venus Voyager",
+      "active": false
+    },
+    {
+      "id": 13,
+      "colonyId": 5,
+      "name": "Jovian Jester",
+      "active": true
+    },
+    {
+      "id": 14,
+      "colonyId": 6,
+      "name": "Saturnian Songbird",
+      "active": false
+    },
+    {
+      "id": 15,
+      "colonyId": 7,
+      "name": "Neptune Navigator",
+      "active": true
+    },
+    {
+      "id": 16,
+      "colonyId": 8,
+      "name": "Zenith Zephyr",
+      "active": false
+    },
+    {
+      "id": 17,
+      "colonyId": 1,
+      "name": "Lunar Lullaby",
+      "active": false
+    },
+    {
+      "id": 18,
+      "colonyId": 2,
+      "name": "Astro Whisperer",
+      "active": true
+    },
+    {
+      "id": 19,
+      "colonyId": 3,
+      "name": "Nova Nomad",
+      "active": false
+    },
+    {
+      "id": 20,
+      "colonyId": 4,
+      "name": "Stellar Seeker",
+      "active": true
+    },
+    {
+      "id": 21,
+      "colonyId": 5,
+      "name": "Cosmic Chuckler",
+      "active": false
+    },
+    {
+      "id": 22,
+      "colonyId": 6,
+      "name": "Saturnian Serenader",
+      "active": true
+    },
+    {
+      "id": 23,
+      "colonyId": 7,
+      "name": "Neptune Navigator II",
+      "active": true
+    },
+    {
+      "id": 24,
+      "colonyId": 8,
+      "name": "Lunar Luminary II",
+      "active": false
+    },
+    {
+      "id": 25,
+      "colonyId": 1,
+      "name": "Solar Soliloquy",
+      "active": true
+    }
+  ],
+  "colonies": [
+    {
+      "id": 1,
+      "size": 3,
+      "name": "Earth"
+    },
+    {
+      "id": 2,
+      "size": 3,
+      "name": "Mars"
+    },
+    {
+      "id": 3,
+      "size": 3,
+      "name": "Venus"
+    },
+    {
+      "id": 4,
+      "size": 3,
+      "name": "Jupiter"
+    },
+    {
+      "id": 5,
+      "size": 2,
+      "name": "Saturn"
+    },
+    {
+      "id": 6,
+      "size": 2,
+      "name": "Uranus"
+    },
+    {
+      "id": 7,
+      "size": 1,
+      "name": "Neptune"
+    },
+    {
+      "id": 8,
+      "size": 1,
+      "name": "Pluto"
+    }
+  ],
+  "colonyMinerals": [
+    {
+      "id": 1,
+      "colonyId": 1,
+      "mineralId": 1,
+      "tons": 534
+    },
+    {
+      "id": 2,
+      "colonyId": 1,
+      "mineralId": 3,
+      "tons": 308
+    },
+    {
+      "id": 3,
+      "colonyId": 1,
+      "mineralId": 4,
+      "tons": 205
+    },
+    {
+      "id": 4,
+      "colonyId": 2,
+      "mineralId": 4,
+      "tons": 1000
+    },
+    {
+      "id": 5,
+      "colonyId": 2,
+      "mineralId": 6,
+      "tons": 151
+    },
+    {
+      "id": 6,
+      "colonyId": 3,
+      "mineralId": 4,
+      "tons": 804
+    },
+    {
+      "id": 7,
+      "colonyId": 3,
+      "mineralId": 1,
+      "tons": 106
+    },
+    {
+      "id": 8,
+      "colonyId": 4,
+      "mineralId": 2,
+      "tons": 500
+    },
+    {
+      "id": 9,
+      "colonyId": 4,
+      "mineralId": 5,
+      "tons": 50
+    },
+    {
+      "id": 10,
+      "colonyId": 5,
+      "mineralId": 2,
+      "tons": 314
+    },
+    {
+      "id": 11,
+      "colonyId": 6,
+      "mineralId": 6,
+      "tons": 200
+    },
+    {
+      "id": 12,
+      "colonyId": 7,
+      "mineralId": 3,
+      "tons": 34
+    },
+    {
+      "id": 13,
+      "colonyId": 8,
+      "mineralId": 1,
+      "tons": 5
+    },
+    {
+      "colonyId": 7,
+      "mineralId": 6,
+      "tons": 1,
+      "id": 14
+    },
+    {
+      "colonyId": 3,
+      "mineralId": 6,
+      "tons": 1,
+      "id": 15
+    },
+    {
+      "colonyId": 3,
+      "mineralId": 5,
+      "tons": 1,
+      "id": 16
+    },
+    {
+      "colonyId": 2,
+      "mineralId": 2,
+      "tons": 1,
+      "id": 17
+    },
+    {
+      "colonyId": 7,
+      "mineralId": 4,
+      "tons": 1,
+      "id": 18
+    },
+    {
+      "colonyId": 5,
+      "mineralId": 6,
+      "tons": 3,
+      "id": 19
+    },
+    {
+      "colonyId": 5,
+      "mineralId": 3,
+      "tons": 1,
+      "id": 20
+    }
+  ],
+  "minerals": [
+    {
+      "id": 1,
+      "name": "Copper"
+    },
+    {
+      "id": 2,
+      "name": "Tin"
+    },
+    {
+      "id": 3,
+      "name": "Pyrite"
+    },
+    {
+      "id": 4,
+      "name": "Iron"
+    },
+    {
+      "id": 5,
+      "name": "Platinum"
+    },
+    {
+      "id": 6,
+      "name": "Uranium"
+    }
+  ],
+  "facilites": [
+    {
+      "id": 1,
+      "active": true,
+      "name": "Rockefeller Interdimensional-Mining CO."
+    },
+    {
+      "id": 2,
+      "active": true,
+      "name": "Nebula Nexus Extractors"
+    },
+    {
+      "id": 3,
+      "active": false,
+      "name": "Crystal Comet Mining Outpost"
+    },
+    {
+      "id": 4,
+      "active": true,
+      "name": "Solar Flare Ore Depot"
+    },
+    {
+      "id": 5,
+      "active": false,
+      "name": "Astro Vein Prospectors"
+    },
+    {
+      "id": 6,
+      "active": true,
+      "name": "Celestial Crystalline Miners"
+    },
+    {
+      "id": 7,
+      "active": true,
+      "name": "Orion's Belt Ore Harvesters"
+    },
+    {
+      "id": 8,
+      "active": false,
+      "name": "Galactic Geyser Resources"
+    },
+    {
+      "id": 9,
+      "active": true,
+      "name": "Aurora Asteroid Excavators"
+    }
+  ],
+  "facilityMinerals": [
+    {
+      "id": 1,
+      "mineralId": 1,
+      "facilityId": 1,
+      "tons": 92
+    },
+    {
+      "id": 2,
+      "mineralId": 3,
+      "facilityId": 1,
+      "tons": 79
+    },
+    {
+      "id": 3,
+      "mineralId": 6,
+      "facilityId": 1,
+      "tons": 125
+    },
+    {
+      "id": 4,
+      "mineralId": 2,
+      "facilityId": 2,
+      "tons": 172
+    },
+    {
+      "id": 5,
+      "mineralId": 4,
+      "facilityId": 2,
+      "tons": 86
+    },
+    {
+      "id": 6,
+      "mineralId": 1,
+      "facilityId": 3,
+      "tons": 39
+    },
+    {
+      "id": 7,
+      "mineralId": 5,
+      "facilityId": 3,
+      "tons": 69
+    },
+    {
+      "id": 8,
+      "mineralId": 6,
+      "facilityId": 4,
+      "tons": 284
+    },
+    {
+      "id": 9,
+      "mineralId": 2,
+      "facilityId": 4,
+      "tons": 60
+    },
+    {
+      "id": 10,
+      "mineralId": 4,
+      "facilityId": 5,
+      "tons": 180
+    },
+    {
+      "id": 11,
+      "mineralId": 5,
+      "facilityId": 6,
+      "tons": 98
+    },
+    {
+      "id": 12,
+      "mineralId": 6,
+      "facilityId": 7,
+      "tons": 210
+    },
+    {
+      "id": 13,
+      "mineralId": 2,
+      "facilityId": 7,
+      "tons": 35
+    },
+    {
+      "id": 14,
+      "mineralId": 3,
+      "facilityId": 7,
+      "tons": 69
+    },
+    {
+      "id": 15,
+      "mineralId": 1,
+      "facilityId": 8,
+      "tons": 60
+    },
+    {
+      "id": 16,
+      "mineralId": 4,
+      "facilityId": 8,
+      "tons": 110
+    },
+    {
+      "id": 17,
+      "mineralId": 5,
+      "facilityId": 8,
+      "tons": 25
+    },
+    {
+      "id": 18,
+      "mineralId": 6,
+      "facilityId": 9,
+      "tons": 222
+    },
+    {
+      "id": 19,
+      "mineralId": 1,
+      "facilityId": 9,
+      "tons": 37
+    },
+    {
+      "id": 20,
+      "mineralId": 3,
+      "facilityId": 9,
+      "tons": 79
+    },
+    {
+      "id": 21,
+      "mineralId": 2,
+      "facilityId": 9,
+      "tons": 116
+    },
+    {
+      "id": 22,
+      "mineralId": 4,
+      "facilityId": 9,
+      "tons": 140
+    },
+    {
+      "id": 23,
+      "mineralId": 5,
+      "facilityId": 9,
+      "tons": 73
+    }
+  ],
+  "orders": [
+    {
+      "governorId": 7,
+      "facilityMineralId": 12,
+      "tons": 1,
+      "orderId": 1,
+      "id": 1
+    },
+    {
+      "governorId": 11,
+      "facilityMineralId": 12,
+      "tons": 1,
+      "orderId": 2,
+      "id": 2
+    },
+    {
+      "governorId": 11,
+      "facilityMineralId": 11,
+      "tons": 1,
+      "orderId": 3,
+      "id": 3
+    },
+    {
+      "governorId": 18,
+      "facilityMineralId": 9,
+      "tons": 1,
+      "orderId": 4,
+      "id": 4
+    },
+    {
+      "governorId": 7,
+      "facilityMineralId": 5,
+      "tons": 1,
+      "orderId": 5,
+      "id": 5
+    },
+    {
+      "governorId": 13,
+      "facilityMineralId": 12,
+      "tons": 1,
+      "orderId": 6,
+      "id": 6
+    },
+    {
+      "governorId": 13,
+      "facilityMineralId": 12,
+      "tons": 1,
+      "orderId": 7,
+      "id": 7
+    },
+    {
+      "governorId": 13,
+      "facilityMineralId": 12,
+      "tons": 1,
+      "orderId": 8,
+      "id": 8
+    },
+    {
+      "governorId": 13,
+      "facilityMineralId": 14,
+      "tons": 1,
+      "orderId": 9,
+      "id": 9
+    }
+  ]
+}
