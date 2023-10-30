@@ -8,7 +8,7 @@ export const FacilityOptions = async() => {
     
     document.addEventListener("change", handleFaciltyChoice)
     
-    const response = await fetch("http://localhost:8088/facilites")
+    const response = await fetch("https://exomine-api.onrender.com/facilites")
     const facilites = await response.json()
 
     let facilitesHTML = 

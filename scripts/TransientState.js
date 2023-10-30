@@ -1,4 +1,4 @@
-const ords = await fetch("http://localhost:8088/orders")
+const ords = await fetch("https://exomine-api.onrender.com/orders")
 const orders = await ords.json()
 
 let transientState = {
@@ -10,7 +10,7 @@ let transientState = {
 
     //ORDER ID IS NOT CHANGING!!!!
 export const setGovernor = async (govId) => {
-    const ordUpdate = await fetch("http://localhost:8088/orders")
+    const ordUpdate = await fetch("https://exomine-api.onrender.com/orders")
     const updatedOrders = await ordUpdate.json()
 
 
@@ -46,7 +46,7 @@ export const purchaseMineral = async (govId, facMinId, tons) => {
         body: JSON.stringify(transientState)
     }
     
-    const response = await (fetch("http://localhost:8088/orders", postOptions))
+    const response = await (fetch("https://exomine-api.onrender.com/orders", postOptions))
 
     // Broadcast custom event to entire documement so that the
     // application can re-render and update state
@@ -76,7 +76,7 @@ export const createColonyMineral = async (colId, minId, tons) => {
         body: JSON.stringify(colonyMineralState)
     }
     
-    const response = await (fetch("http://localhost:8088/colonyMinerals", postOptions))
+    const response = await (fetch("https://exomine-api.onrender.com/colonyMinerals", postOptions))
 
     // Broadcast custom event to entire documement so that the
     // application can re-render and update state
@@ -85,7 +85,7 @@ export const createColonyMineral = async (colId, minId, tons) => {
 
 // ChatGPT Function Suggestion
 export const updateDatabase = async (endpoint, id, data) => {
-    const response = await fetch(`http://localhost:8088/${endpoint}/${id}`, {
+    const response = await fetch(`https://exomine-api.onrender.com/${endpoint}/${id}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'

@@ -13,7 +13,7 @@ export const GovernorOptions = async () => {
 
     document.addEventListener("change", handleGovChoice)
 
-    const response = await fetch("http://localhost:8088/governors")
+    const response = await fetch("https://exomine-api.onrender.com/governors")
     const governors = await response.json()
 
     let html = `<select id="govs">`

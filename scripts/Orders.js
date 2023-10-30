@@ -9,15 +9,15 @@ import { purchaseMineral, getTState, setFacilityMineral } from "./TransientState
 import { updateColonyMinerals } from "./ColonyMinerals.js"
 
 // Get facility minerals
-const response = await fetch("http://localhost:8088/facilityMinerals")
+const response = await fetch("https://exomine-api.onrender.com/facilityMinerals")
 const facilityMinerals = await response.json()
 
 // Get all minerals
-const minerals = await fetch("http://localhost:8088/minerals")
+const minerals = await fetch("https://exomine-api.onrender.com/minerals")
 const allMinerals = await minerals.json()
 
 // Get all facilities
-const facility = await fetch("http://localhost:8088/facilites")
+const facility = await fetch("https://exomine-api.onrender.com/facilites")
 const allFacilities = await facility.json()
 
 

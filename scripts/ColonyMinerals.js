@@ -16,10 +16,10 @@ import { getColonyMinerals, getFacilityMinerals } from "./Minerals.js"
 
 export let updateColonyMinerals = async (orderId) => {
     //Imports
-    const expanded = await fetch("http://localhost:8088/orders?_expand=governor&_expand=facilityMineral")
+    const expanded = await fetch("https://exomine-api.onrender.com/orders?_expand=governor&_expand=facilityMineral")
     const ordersExpanded = await expanded.json()
 
-    const colMin = await fetch("http://localhost:8088/colonyMinerals")
+    const colMin = await fetch("https://exomine-api.onrender.com/colonyMinerals")
     const colonyMinerals = await colMin.json()
 
     //Function

@@ -3,16 +3,16 @@
 export const getFacilityMinerals = async(facilityId) => {
     
     // Get facility minerals
-    const response = await fetch("http://localhost:8088/facilityMinerals")
+    const response = await fetch("https://exomine-api.onrender.com/facilityMinerals")
     const facilityMinerals = await response.json()
     const facMinerals = document.querySelector(`.facility_minerals`)
 
     // Get all minerals
-    const minerals = await fetch("http://localhost:8088/minerals")
+    const minerals = await fetch("https://exomine-api.onrender.com/minerals")
     const allMinerals = await minerals.json()
 
     // Get all facilities
-    const facility = await fetch("http://localhost:8088/facilites")
+    const facility = await fetch("https://exomine-api.onrender.com/facilites")
     const allFacilities = await facility.json()
 
     let facilityName = null
@@ -49,16 +49,16 @@ export const getFacilityMinerals = async(facilityId) => {
 export const getColonyMinerals = async(colonyId) => {
 
     // Get colony minerals
-    const response = await fetch("http://localhost:8088/colonyMinerals")
+    const response = await fetch("https://exomine-api.onrender.com/colonyMinerals")
     const colonyMinerals = await response.json()
     const colMinerals = document.querySelector(`.colony_minerals`)
 
     // Get all minerals
-    const minerals = await fetch("http://localhost:8088/minerals")
+    const minerals = await fetch("https://exomine-api.onrender.com/minerals")
     const allMinerals = await minerals.json()
 
     // Get all colonies
-    const colony = await fetch("http://localhost:8088/colonies")
+    const colony = await fetch("https://exomine-api.onrender.com/colonies")
     const allColonies = await colony.json()
 
     let colonyName = null

@@ -2,7 +2,7 @@
 // import { getTState } from "./TransientState.js"
 
 // export const ColonyTitle = async () => {
-//     const response = await fetch("http://localhost:8088/governors?_expand=colony")
+//     const response = await fetch("https://exomine-api.onrender.com/governors?_expand=colony")
 //     const governors = await response.json()
 
 //     let html = ``
